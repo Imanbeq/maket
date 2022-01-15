@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background: url("images/backgroud.png");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+
+.main{
+    max-height: 600px;
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.go_to_menu{
+    display: flex;
+    background: #FF6B6B;
+    color: white;
+    border-radius: 50px;
+    border-width: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    width: 216px;
+    height: 53px;
+}
+
+.navbar{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 14%;
+    justify-content: center;
+}
+.text{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.animals{
+    display: flex;
+    width: 525px;
+}
+.post1{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #05435E;
+    width: 500px;
+}
+.post2{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #05435E;
+    margin-top: 15%;
+    margin-bottom: 15px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.menu div{
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 107, 153, 0.2);
+    padding: 0 50px 35px 50px;
+    width: 15%;
+    margin-top: 80px;
+}
+.menu p{
+    font-size: 14px;
+    color: #05435E;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.btn:hover{
+    background: #008FCC;
+}
+.btn{
+    display: flex;
+    background: #FF6B6B;
+    border-radius: 50px;
+    border-width: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 40px;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding-left: 0;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s linear;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+i {
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+
+    margin: 0 auto 30px;
+}
+.nav a {
+    color: #05435E;
+    margin-right: 41px;
+}
+.nav .glav{
+    padding-left: 140px;
+    color: red;
+}
+.phone{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.phone_img{
+    margin-right: 5px;
+}
+.nav li {
+    display: flex;
+    align-content: center;
+}
+.logo{
+    position: relative;
+}
+
+.navGallery{
+    margin-left: 115px;
+}
+.about{
+    padding-right: 70px;
+}
+
+
+h2{
+    color: #05435E;
+    width: 100%;
+    height: 20px;
+}
+
+
+.section1{
+    margin-top: 3%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.section1 h2{
+    width: 100%;
+    margin-bottom: 33px;
+}
+.photo1{
+    width: 592px;
+    height: 272px;
+}
+.bio{
+    width: 530px;
+}
+.bioTitle{
+    font-family: 'Roboto', sans-serif;
+    color: #008FCC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bioText{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #05435E;
+    line-height: 20px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.section2 h2{
+    margin-bottom: 40px;
+}
+.gallery{
+    max-height: 50%;
+}
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.arrowLeft{
+    border-radius: 100%;
+    border-color: #008FCC;
+    background-color: #008FCC;
+    margin-right: 15px;
+}
+
+.arrowRight{
+    border-radius: 100%;
+    border-color: #008FCC;
+    background-color: white;
+}
+
+
+
+.map{
+    margin-bottom: 80px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+.section3_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #05435E;
+}
+.section3_phone{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #008FCC;
+    margin-bottom: 3%;
+}
+.section3_email{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #008FCC;
+}
+.section3_phone img{
+    margin-right: 5px;
+}
+.section3_email  img{
+    margin-right: 5px;
+}
+.footer{
+    width: 100%;
+    background: url("images/footerBackground.png");
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo{
+    margin-top: 40px;
+}
+.footerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerPhone{
+    font-weight: 500;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footerPhone img{
+    margin-right: 5px;
+}
+.footerText{
+    color: white;
+    font-weight: normal;
+    line-height: 21px;
+    align-items: center;
+    margin: 48px;
+}
+footer p{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
